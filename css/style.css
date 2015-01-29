@@ -18,7 +18,7 @@ a{text-decoration: none;}
 .color_666{ color: #666666;}
 .color_fff{ color:#FFFFFF}
 .color_yellow{ color: #fff584;}
-
+.text_nowrap{ white-space: nowrap;}
 
 .result_top{ width: 100%;  background: url(../images/bk01.png) left top;min-height: 518px; position: relative; padding-bottom: 50px;}
 .result_title{ color: #fd4d4d;}
