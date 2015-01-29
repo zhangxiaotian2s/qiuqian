@@ -22,55 +22,60 @@
 				< 返回</a>
 					<h1 class="text-center">抽签活动</h1>
 		</header>
+
 		<section class="register_box bkbody_02">
 			<div class="blank20"></div>
 			<div>
-				<img src="../images/register_02.png" class="img-responsive  margin-auto">
+				<img src="../images/register_01.png" class="img-responsive  margin-auto">
+
 			</div>
 			<div class="blank30"></div>
 			<div class="from_box container-fluid row">
 				<form>
 					<div class="col-xs-10  col-xs-offset-1">
+						<div class="input_box">
+							<div class="col-xs-5">
+								<span class="input_name color_red">您的真实姓名：</span>
+							</div>
+							<div class="col-xs-7">
+								<input type="text" class="form-control">
+							</div>
+						</div>
+						<div class="blank30"></div>
+						<div class="check_sex">
+							<div class="col-xs-5">
+								<span class="input_name color_red">您的真实姓名：</span>
+							</div>
+							<div class="col-xs-7">
+								<div class="check_sex_icon check_true_sex">
+									<div class="sex_man">
+										<input type="radio" name="sex" value="男" checked="checked" hidden />
+									</div>
+								</div>
+								<div class="check_sex_icon">
+									<div class="sex_woman">
+										<input type="radio" name="sex" value="女" hidden />
+									</div>
+								</div>
+							</div>
+
+						</div>
+
+						<div class="blank20"></div>
 
 						<div class="input_box">
-							<div class="col-xs-4">
-								<span class="input_name color_red">希望薪水：</span>
+							<div class="col-xs-5">
+								<span class="input_name color_red">您的公历生日：</span>
 							</div>
-							<div class="col-xs-8 arrows_right">
-								<input type="text" class="form-control" name="">
-							</div>
-						</div>
-						<div class="blank30"></div>
-						<div class="input_box">
-							<div class="col-xs-4">
-								<span class="input_name color_red">希望地区：</span>
-							</div>
-							<div class="col-xs-8 arrows_right">
-								<input type="text" class="form-control" name="">
+							<div class="col-xs-7 arrows_right">
+								<input type="text" class="form-control">
 							</div>
 						</div>
 						<div class="blank30"></div>
-						<div class="input_box">
-							<div class="col-xs-4">
-								<span class="input_name color_red">当前行业：</span>
-							</div>
-							<div class="col-xs-8 arrows_right">
-								<input type="text" class="form-control" name="">
-							</div>
-						</div>
-						<div class="blank30"></div>
-						<div class="input_box">
-							<div class="col-xs-4">
-								<span class="input_name color_red">当前职能：</span>
-							</div>
-							<div class="col-xs-8 arrows_right">
-								<input type="text" class="form-control" name="">
-							</div>
-						</div>
-						<div class="blank30"></div>
-						<div class="blank20"></div>
+						<div class="blank10"></div>
+
 						<div class="col-xs-8 col-xs-offset-2">
-							<a href="islogin_result.html" type="submit" class="btn btn-primary btn-lg btn-block btn_submit">开始测算</a>
+							<button type="submit" class="btn btn-primary btn-lg btn-block btn_submit">开始测算</button>
 						</div>
 						<div class="blank30"></div>
 						<div class="blank30"></div>
@@ -84,7 +89,10 @@
 					$(".check_sex_icon").removeClass("check_true_sex")
 					$(this).addClass("check_true_sex")
 					$(this).find("input").attr("checked", "checked")
+
 				})
+
+
 			})
 		</script>
 	</body>

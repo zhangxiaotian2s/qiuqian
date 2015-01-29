@@ -115,6 +115,7 @@ animation: ac_to_big .5s  linear;
 .input_box{  border-bottom: #C9302C  solid 2px; overflow: hidden;}
 .input_box span,.check_sex span{ display: block; margin: auto;  line-height: 40px; white-space: nowrap; font-size: 1.2em; }
 .input_box input{  background:none; box-shadow: none; height: 40px; width: 100%; border: none; line-height: 40px;font-size: 1.2em; }
+.input_box input:hover{ box-shadow: none;}
 
 .check_sex_icon{ width: 34px; height: 34px; display:block;  float: left; margin-right: 5%; border-radius: 17px; overflow: hidden;   } 
 .check_sex_icon div{  width: 100%; height: 100%; border-radius: 50%;}
