@@ -1,0 +1,49 @@
+*{ margin: 0; padding: 0;}
+a{ text-decoration: none;}
+li{list-style: none;}
+img{ border: 0;}
+.quanquanbox{ width: 600px; margin:  0 auto;}
+
+.quan_line{ border: #3C3C3C solid 2px;  width: 600px; height: 600px;border-radius: 300px; position: relative; margin: 0 auto;
+-webkit-transform:scaleY(0.5) ;
+}
+
+.quan_1{ width: 50%; height: 50%; position: absolute; left: 0%; top: 0%;
+animation: ScanScroll 3s  linear;
+-moz-animation: ScanScroll 3s  linear;	
+-webkit-animation: ScanScroll 3s  linear;	
+-o-animation: ScanScroll 3s  linear;
+
+
+
+ }
+.quan_1 img{ display: block; margin:0  auto; border-radius:50%  ;
+animation: ScanScrollimg 3s  linear;
+-moz-animation: ScanScrollimg 3s  linear;	
+-webkit-animation: ScanScrollimg 3s  linear;	
+-o-animation: ScanScrollimg 3s  linear;
+-webkit-transform:scaleY(2.0)  ;
+}
+
+
+@-webkit-keyframes ScanScroll{
+	from{
+		-webkit-transform: rotate(0deg)  ;
+		-webkit-transform-origin: 100% 100%;
+	}
+	to{
+		-webkit-transform: rotate(-360deg);
+		-webkit-transform-origin: 100% 100%;
+	}
+}
+@-webkit-keyframes ScanScrollimg{
+	from{
+		-webkit-transform: rotate(-360deg) scale(.5,1.0)  ;
+		-webkit-transform-origin: 50% 50%;
+	}
+	to{
+		-webkit-transform: rotate(0deg) scale(1.0,2.0) ;
+		-webkit-transform-origin: 50% 50%;
+	}
+}
+

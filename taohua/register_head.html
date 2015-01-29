@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<meta charset="utf-8">
+
+		<title>抽签活动</title>
+
+		<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+		<link rel="stylesheet" href="../dist/css/bootstrap.min.css" />
+		<link rel="stylesheet" href="../css/style.css" />
+		<link rel="stylesheet" href="../css/action.css" />
+		<script type="text/javascript" src="../js/jquery-1.7.2.min.js"></script>
+		<!--<script type="text/javascript" src="js/jquery.moblie-1.4.5.js" ></script>-->
+		<script type="text/javascript" src="../dist/js/bootstrap.js"></script>
+		<script type="text/javascript" src="../js/jquery.touchSwipe.js"></script>
+	</head>
+
+	<body>
+		<header class="publick_header01">
+			<a href="#" class="header_bk">
+				< 返回</a>
+					<h1 class="text-center">抽签活动</h1>
+		</header>
+
+		<section class="register_box bkbody_02">
+			<div class="blank20"></div>
+			<div>
+				<img src="../images/register_01.png" class="img-responsive  margin-auto">
+
+			</div>
+			<div class="register_head_img_box">
+				 <img src="../images/no_head_img.png" class="img-circle">
+			</div>
+			
+			<div class="blank30"></div>
+			<div class="from_box container-fluid row">
+				<form>
+					<div class="col-xs-10  col-xs-offset-1">
+						<div class="input_box">
+							<div class="col-xs-5">
+								<span class="input_name color_red">您的真实姓名：</span>
+							</div>
+							<div class="col-xs-7">
+								<input type="text" class="form-control">
+							</div>
+						</div>
+						<div class="blank30"></div>
+						<div class="check_sex">
+							<div class="col-xs-5">
+								<span class="input_name color_red">您的真实姓名：</span>
+							</div>
+							<div class="col-xs-7">
+								<div class="check_sex_icon check_true_sex">
+									<div class="sex_man">
+										<input type="radio" name="sex" value="男" checked="checked" hidden />
+									</div>
+								</div>
+								<div class="check_sex_icon">
+									<div class="sex_woman">
+										<input type="radio" name="sex" value="女" hidden />
+									</div>
+								</div>
+							</div>
+
+						</div>
+
+						<div class="blank20"></div>
+
+						<div class="input_box">
+							<div class="col-xs-5">
+								<span class="input_name color_red">您的公历生日：</span>
+							</div>
+							<div class="col-xs-7 arrows_right">
+								<input type="text" class="form-control">
+							</div>
+						</div>
+						<div class="blank30"></div>
+						<div class="blank10"></div>
+
+						<div class="col-xs-8 col-xs-offset-2">
+							<button type="submit" class="btn btn-primary btn-lg btn-block btn_submit">开始测算</button>
+						</div>
+						<div class="blank30"></div>
+						<div class="blank30"></div>
+				</form>
+				</div>
+		</section>
+		<footer class="line_footer"></footer>
+		<script>
+			$(document).ready(function() {
+				$(".check_sex_icon").click(function() {
+					$(".check_sex_icon").removeClass("check_true_sex")
+					$(this).addClass("check_true_sex")
+					$(this).find("input").attr("checked", "checked")
+
+				})
+
+
+			})
+		</script>
+	</body>
+
+</html>

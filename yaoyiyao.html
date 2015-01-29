@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<meta charset="utf-8">
+		<title>抽签活动</title>
+
+		<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+		<link rel="stylesheet" href="../dist/css/bootstrap.min.css" />
+		<link rel="stylesheet" href="css/style.css" />
+		<link rel="stylesheet" href="css/action.css" />
+		<script type="text/javascript" src="js/jquery-1.7.2.min.js"></script>
+		<!--<script type="text/javascript" src="js/jquery.moblie-1.4.5.js" ></script>-->
+
+		<script type="text/javascript" src="dist/js/bootstrap.js"></script>
+		<script type="text/javascript" src="js/jquery.touchSwipe.js"></script>
+
+	</head>
+
+	<body>
+
+		<header class="container-fluid publick_header01">
+			<div class="header_bk">
+				< 返回</div>
+					<h1 class="text-center">抽签活动</h1>
+		</header>
+		<div class="yao_content_bk bkbody_02" id="content">
+
+			<div class="hand_arm"></div>
+			<div class="yao_label label_01"></div>
+			<div class="yao_label label_02"></div>
+			<div class="yao_label label_03"></div>
+			<div class="yao_label label_04"></div>
+			<div class="yao_label label_05"></div>
+			<div class="yao_label label_06"></div>
+			<div class="yao_label label_07"></div>
+			<div class="yao_label label_08"></div>
+			<div class="yao_box"></div>
+			<div class="hand_finger"></div>
+			<div class="yao_yi_yao"></div>
+			<div class="yao_text">
+				<ul>
+					<li>1)如图所示，双手紧握，以示虔诚；</li>
+					<li>2)前后摇动，心中默念求愿内容；</li>
+					<li>3)紧闭双眼，摇动6次以上；</li>
+				</ul>
+
+			</div>
+			<a href="http://www.baidu.com" id="target_url"></a>
+		</div>
+		<footer class="container-fluid  line_footer">
+
+		</footer>
+		<script>
+			$(document).ready(function() {
+				var o_width = $("#content").width();
+				var proportion = o_width / 480;
+				var o_height = proportion * 624;
+				$("#content").css("height", o_height);
+				var yao_i = 0;
+				var i = 0;
+
+				function fn_yaoqian() {
+					//					for (i = 1; i <= 8; i++) {
+					//						$(".yao_label").eq(i - 1).addClass("label_0" + i + "_swing");
+					//					}
+					$(".yao_label").each(function() {
+						i++;
+						$(this).addClass("label_0" + i + "_swing")
+
+
+					})
+
+
+					$(".yao_box").addClass("yao_box_swing");
+					setTimeout(function() {
+						$("#target_url")[0].click();
+					}, 3500)
+				}
+				if (window.DeviceMotionEvent) {
+					var speed = 25;
+					var x = y = z = lastX = lastY = lastZ = 0;
+					window.addEventListener('devicemotion', function() {
+						var acceleration = event.accelerationIncludingGravity;
+						x = acceleration.x;
+						y = acceleration.y;
+						if (Math.abs(x - lastX) > speed || Math.abs(y - lastY) > speed) {
+							yao_i++
+							if (yao_i >= 2) {
+								yao_i = 0
+								fn_yaoqian()
+							}
+						}
+						lastX = x;
+						lastY = y;
+					}, false);
+				}
+			})
+		</script>
+
+	</body>
+
+
+</html>

@@ -1,0 +1,365 @@
+
+@keyframes label_swing_01{
+	0%{  transform:  rotate(-9deg);  left: 47.4%; top: 7%; z-index: 11;}
+	25%{ transform:  rotate(-30deg);  left: 44%;   top: 8%; z-index: 18;}
+	50%{ transform:  rotate(10deg);  left: 50%;   top: 2%; z-index: 14;}
+	75%{ transform:  rotate(30deg); left: 57%;   top: 2%; z-index: 15;}
+	100{ transform:  rotate(-9deg);  left: 47.4%; top: 7%; z-index: 12;}
+}
+@keyframes label_swing_02{
+    0%{  transform:  rotate(-12deg); left: 41%;  top: 4.5%; z-index: 18;}
+	25%{ transform:  rotate(12deg);  left: 45%;  top: 4.5%; z-index: 12;}
+	50%{ transform:  rotate(10deg);  left: 42%;  top: 6%; z-index: 14;}
+	75%{ transform:  rotate(-35deg); left: 48%;  top: 8%; z-index: 15;}
+	100{ transform:  rotate(-12deg); left: 41%;  top: 2.5%; z-index: 17;}
+}
+@keyframes label_swing_03{
+    0%{  transform:  rotate(-15deg); left: 38%;  top: 7.5%; z-index: 18;}
+	25%{ transform:  rotate(25deg);  left: 49%;  top: 4.5%; z-index: 13;}
+	50%{ transform:  rotate(-30deg); left: 38%;  top: 2.5%; z-index: 12;}
+	75%{ transform:  rotate(15deg);  left: 43%;  top: 9%; z-index: 18;}
+	100{ transform:  rotate(-15deg); left: 38%;  top: 7.5%; z-index: 11;}
+}
+
+@keyframes label_swing_04{
+	0%{  transform:  rotate(-10deg); left: 40%;  top: 9%; z-index: 11;}
+	25%{ transform:  rotate(20deg);  left: 42%;  top: 10%; z-index: 18;}
+	50%{ transform:  rotate(30deg);  left: 48%;  top: 2%; z-index: 14;}
+	75%{ transform:  rotate(-30deg); left: 39%;  top: 5%; z-index: 15;}
+	100{ transform:  rotate(-10deg); left: 40%;  top: 9%; z-index: 12;}
+}
+@keyframes label_swing_05{
+	0%{  transform:  rotate(6deg);   left: 50%;   top: 3%; z-index: 14;}
+	25%{ transform:  rotate(-20deg); left: 38%;   top: 2%; z-index: 12;}
+	50%{ transform:  rotate(24deg);  left: 48%;   top: 4%; z-index: 17;}
+	75%{ transform:  rotate(1deg);   left: 45%;   top: 8%; z-index: 14;}
+	100{ transform:  rotate(6deg);   left: 50%;   top: 3%; z-index: 11;}
+}
+@keyframes label_swing_06{
+	0%{  transform:  rotate(12deg);  left: 52%;   top: 6%; z-index: 14;}
+	25%{ transform:  rotate(-10deg); left: 45%;   top: 3%; z-index: 12;}
+	50%{ transform:  rotate(30deg);  left: 50%;   top: 5%; z-index: 17;}
+	75%{ transform:  rotate(-4deg);  left: 46%;   top: 3%; z-index: 14;}
+	100{ transform:  rotate(12deg);  left: 52%;   top: 3%; z-index: 11;}
+}
+
+@keyframes label_swing_07{
+	0%{  transform:  rotate(12deg);  left: 57.5%; top: 6%; z-index: 14;}
+	25%{ transform:  rotate(-10deg); left: 38%;   top: 8%; z-index: 12;}
+	50%{ transform:  rotate(20deg);  left: 55%;   top: 4%; z-index: 17;}
+	75%{ transform:  rotate(3deg);   left: 50%;   top: 7%; z-index: 13;}
+	100{ transform:  rotate(12deg);  left: 52%;   top: 6%; z-index: 15;}
+}
+@keyframes label_swing_08{
+	0%{  transform:  rotate(20deg);  left: 52%;   top: 9%; z-index: 17;}
+	25%{ transform:  rotate(-10deg); left: 48%;   top: 4%; z-index: 18;}
+	50%{ transform:  rotate(34deg);  left: 46%;   top: 5%; z-index: 11;}
+	75%{ transform:  rotate(-2deg);  left: 46%;   top: 8%; z-index: 13;}
+	100{ transform:  rotate(20deg);  left: 52%;   top: 9%; z-index: 15;}
+}
+
+
+
+@-webkit-keyframes label_swing_01{
+	0%{  -webkit-transform:  rotate(-9deg);  left: 47.4%; top: 7%; z-index: 11;}
+	25%{ -webkit-transform:  rotate(-30deg);  left: 44%;   top: 8%; z-index: 18;}
+	50%{ -webkit-transform:  rotate(10deg);  left: 50%;   top: 2%; z-index: 14;}
+	75%{ -webkit-transform:  rotate(30deg); left: 57%;   top: 2%; z-index: 15;}
+	100{ -webkit-transform:  rotate(-9deg);  left: 47.4%; top: 7%; z-index: 12;}
+}
+@-webkit-keyframes label_swing_02{
+    0%{  -webkit-transform:  rotate(-12deg); left: 41%;  top: 4.5%; z-index: 18;}
+	25%{ -webkit-transform:  rotate(12deg);  left: 45%;  top: 4.5%; z-index: 12;}
+	50%{ -webkit-transform:  rotate(10deg);  left: 42%;  top: 6%; z-index: 14;}
+	75%{ -webkit-transform:  rotate(-35deg); left: 48%;  top: 8%; z-index: 15;}
+	100{ -webkit-transform:  rotate(-12deg); left: 41%;  top: 2.5%; z-index: 17;}
+}
+@-webkit-keyframes label_swing_03{
+    0%{  -webkit-transform:  rotate(-15deg); left: 38%;  top: 7.5%; z-index: 18;}
+	25%{ -webkit-transform:  rotate(25deg);  left: 49%;  top: 4.5%; z-index: 13;}
+	50%{ -webkit-transform:  rotate(-30deg); left: 38%;  top: 2.5%; z-index: 12;}
+	75%{ -webkit-transform:  rotate(15deg);  left: 43%;  top: 9%; z-index: 18;}
+	100{ -webkit-transform:  rotate(-15deg); left: 38%;  top: 7.5%; z-index: 11;}
+}
+
+@-webkit-keyframes label_swing_04{
+	0%{  -webkit-transform:  rotate(-10deg); left: 40%;  top: 9%; z-index: 11;}
+	25%{ -webkit-transform:  rotate(20deg);  left: 42%;  top: 10%; z-index: 18;}
+	50%{ -webkit-transform:  rotate(30deg);  left: 48%;  top: 2%; z-index: 14;}
+	75%{ -webkit-transform:  rotate(-30deg); left: 39%;  top: 5%; z-index: 15;}
+	100{ -webkit-transform:  rotate(-10deg); left: 40%;  top: 9%; z-index: 12;}
+}
+@-webkit-keyframes label_swing_05{
+	0%{  -webkit-transform:  rotate(6deg);   left: 50%;   top: 3%; z-index: 14;}
+	25%{ -webkit-transform:  rotate(-20deg); left: 38%;   top: 2%; z-index: 12;}
+	50%{ -webkit-transform:  rotate(24deg);  left: 48%;   top: 4%; z-index: 17;}
+	75%{ -webkit-transform:  rotate(1deg);   left: 45%;   top: 8%; z-index: 14;}
+	100{ -webkit-transform:  rotate(6deg);   left: 50%;   top: 3%; z-index: 11;}
+}
+@-webkit-keyframes label_swing_06{
+	0%{  -webkit-transform:  rotate(12deg);  left: 52%;   top: 6%; z-index: 14;}
+	25%{ -webkit-transform:  rotate(-10deg); left: 45%;   top: 3%; z-index: 12;}
+	50%{ -webkit-transform:  rotate(30deg);  left: 50%;   top: 5%; z-index: 17;}
+	75%{ -webkit-transform:  rotate(-4deg);  left: 46%;   top: 3%; z-index: 14;}
+	100{ -webkit-transform:  rotate(12deg);  left: 52%;   top: 3%; z-index: 11;}
+}
+
+@-webkit-keyframes label_swing_07{
+	0%{  -webkit-transform:  rotate(12deg);  left: 57.5%; top: 6%; z-index: 14;}
+	25%{ -webkit-transform:  rotate(-10deg); left: 38%;   top: 8%; z-index: 12;}
+	50%{ -webkit-transform:  rotate(20deg);  left: 55%;   top: 4%; z-index: 17;}
+	75%{ -webkit-transform:  rotate(3deg);   left: 50%;   top: 7%; z-index: 13;}
+	100{ -webkit-transform:  rotate(12deg);  left: 52%;   top: 6%; z-index: 15;}
+}
+@-webkit-keyframes label_swing_08{
+	0%{  -webkit-transform:  rotate(20deg);  left: 52%;   top: 9%; z-index: 17;}
+	25%{ -webkit-transform:  rotate(-10deg); left: 48%;   top: 4%; z-index: 18;}
+	50%{ -webkit-transform:  rotate(34deg);  left: 46%;   top: 5%; z-index: 11;}
+	75%{ -webkit-transform:  rotate(-2deg);  left: 46%;   top: 8%; z-index: 13;}
+	100{ -webkit-transform:  rotate(20deg);  left: 52%;   top: 9%; z-index: 15;}
+}
+
+
+@-moz-keyframes label_swing_01{
+	0%{  -moz-transform:  rotate(-9deg);  left: 47.4%; top: 7%; z-index: 11;}
+	25%{ -moz-transform:  rotate(-30deg);  left: 44%;   top: 8%; z-index: 18;}
+	50%{ -moz-transform:  rotate(10deg);  left: 50%;   top: 2%; z-index: 14;}
+	75%{ -moz-transform:  rotate(30deg); left: 57%;   top: 2%; z-index: 15;}
+	100{ -moz-transform:  rotate(-9deg);  left: 47.4%; top: 7%; z-index: 12;}
+}
+@-moz-keyframes label_swing_02{
+    0%{  -moz-transform:  rotate(-12deg); left: 41%;  top: 4.5%; z-index: 18;}
+	25%{ -moz-transform:  rotate(12deg);  left: 45%;  top: 4.5%; z-index: 12;}
+	50%{ -moz-transform:  rotate(10deg);  left: 42%;  top: 6%; z-index: 14;}
+	75%{ -moz-transform:  rotate(-35deg); left: 48%;  top: 8%; z-index: 15;}
+	100{ -moz-transform:  rotate(-12deg); left: 41%;  top: 2.5%; z-index: 17;}
+}
+@-moz-keyframes label_swing_03{
+    0%{  -moz-transform:  rotate(-15deg); left: 38%;  top: 7.5%; z-index: 18;}
+	25%{ -moz-transform:  rotate(25deg);  left: 49%;  top: 4.5%; z-index: 13;}
+	50%{ -moz-transform:  rotate(-30deg); left: 38%;  top: 2.5%; z-index: 12;}
+	75%{ -moz-transform:  rotate(15deg);  left: 43%;  top: 9%; z-index: 18;}
+	100{ -moz-transform:  rotate(-15deg); left: 38%;  top: 7.5%; z-index: 11;}
+}
+
+@-moz-keyframes label_swing_04{
+	0%{  -moz-transform:  rotate(-10deg); left: 40%;  top: 9%; z-index: 11;}
+	25%{ -moz-transform:  rotate(20deg);  left: 42%;  top: 10%; z-index: 18;}
+	50%{ -moz-transform:  rotate(30deg);  left: 48%;  top: 2%; z-index: 14;}
+	75%{ -moz-transform:  rotate(-30deg); left: 39%;  top: 5%; z-index: 15;}
+	100{ -moz-transform:  rotate(-10deg); left: 40%;  top: 9%; z-index: 12;}
+}
+@-moz-keyframes label_swing_05{
+	0%{  -moz-transform:  rotate(6deg);   left: 50%;   top: 3%; z-index: 14;}
+	25%{ -moz-transform:  rotate(-20deg); left: 38%;   top: 2%; z-index: 12;}
+	50%{ -moz-transform:  rotate(24deg);  left: 48%;   top: 4%; z-index: 17;}
+	75%{ -moz-transform:  rotate(1deg);   left: 45%;   top: 8%; z-index: 14;}
+	100{ -moz-transform:  rotate(6deg);   left: 50%;   top: 3%; z-index: 11;}
+}
+@-moz-keyframes label_swing_06{
+	0%{  -moz-transform:  rotate(12deg);  left: 52%;   top: 6%; z-index: 14;}
+	25%{ -moz-transform:  rotate(-10deg); left: 45%;   top: 3%; z-index: 12;}
+	50%{ -moz-transform:  rotate(30deg);  left: 50%;   top: 5%; z-index: 17;}
+	75%{ -moz-transform:  rotate(-4deg);  left: 46%;   top: 3%; z-index: 14;}
+	100{ -moz-transform:  rotate(12deg);  left: 52%;   top: 3%; z-index: 11;}
+}
+
+@-moz-keyframes label_swing_07{
+	0%{  -moz-transform:  rotate(12deg);  left: 57.5%; top: 6%; z-index: 14;}
+	25%{ -moz-transform:  rotate(-10deg); left: 38%;   top: 8%; z-index: 12;}
+	50%{ -moz-transform:  rotate(20deg);  left: 55%;   top: 4%; z-index: 17;}
+	75%{ -moz-transform:  rotate(3deg);   left: 50%;   top: 7%; z-index: 13;}
+	100{ -moz-transform:  rotate(12deg);  left: 52%;   top: 6%; z-index: 15;}
+}
+@-moz-keyframes label_swing_08{
+	0%{  -moz-transform:  rotate(20deg);  left: 52%;   top: 9%; z-index: 17;}
+	25%{ -moz-transform:  rotate(-10deg); left: 48%;   top: 4%; z-index: 18;}
+	50%{ -moz-transform:  rotate(34deg);  left: 46%;   top: 5%; z-index: 11;}
+	75%{ -moz-transform:  rotate(-2deg);  left: 46%;   top: 8%; z-index: 13;}
+	100{ -moz-transform:  rotate(20deg);  left: 52%;   top: 9%; z-index: 15;}
+}
+
+
+@-o-keyframes label_swing_01{
+	0%{  -o-transform:  rotate(-9deg);  left: 47.4%; top: 7%; z-index: 11;}
+	25%{ -o-transform:  rotate(-30deg);  left: 44%;   top: 8%; z-index: 18;}
+	50%{ -o-transform:  rotate(10deg);  left: 50%;   top: 2%; z-index: 14;}
+	75%{ -o-transform:  rotate(30deg); left: 57%;   top: 2%; z-index: 15;}
+	100{ -o-transform:  rotate(-9deg);  left: 47.4%; top: 7%; z-index: 12;}
+}
+@-o-keyframes label_swing_02{
+    0%{  -o-transform:  rotate(-12deg); left: 41%;  top: 4.5%; z-index: 18;}
+	25%{ -o-transform:  rotate(12deg);  left: 45%;  top: 4.5%; z-index: 12;}
+	50%{ -o-transform:  rotate(10deg);  left: 42%;  top: 6%; z-index: 14;}
+	75%{ -o-transform:  rotate(-35deg); left: 48%;  top: 8%; z-index: 15;}
+	100{ -o-transform:  rotate(-12deg); left: 41%;  top: 2.5%; z-index: 17;}
+}
+@-o-keyframes label_swing_03{
+    0%{  -o-transform:  rotate(-15deg); left: 38%;  top: 7.5%; z-index: 18;}
+	25%{ -o-transform:  rotate(25deg);  left: 49%;  top: 4.5%; z-index: 13;}
+	50%{ -o-transform:  rotate(-30deg); left: 38%;  top: 2.5%; z-index: 12;}
+	75%{ -o-transform:  rotate(15deg);  left: 43%;  top: 9%; z-index: 18;}
+	100{ -o-transform:  rotate(-15deg); left: 38%;  top: 7.5%; z-index: 11;}
+}
+
+@-o-keyframes label_swing_04{
+	0%{  -o-transform:  rotate(-10deg); left: 40%;  top: 9%; z-index: 11;}
+	25%{ -o-transform:  rotate(20deg);  left: 42%;  top: 10%; z-index: 18;}
+	50%{ -o-transform:  rotate(30deg);  left: 48%;  top: 2%; z-index: 14;}
+	75%{ -o-transform:  rotate(-30deg); left: 39%;  top: 5%; z-index: 15;}
+	100{ -o-transform:  rotate(-10deg); left: 40%;  top: 9%; z-index: 12;}
+}
+@-o-keyframes label_swing_05{
+	0%{  -o-transform:  rotate(6deg);   left: 50%;   top: 3%; z-index: 14;}
+	25%{ -o-transform:  rotate(-20deg); left: 38%;   top: 2%; z-index: 12;}
+	50%{ -o-transform:  rotate(24deg);  left: 48%;   top: 4%; z-index: 17;}
+	75%{ -o-transform:  rotate(1deg);   left: 45%;   top: 8%; z-index: 14;}
+	100{ -o-transform:  rotate(6deg);   left: 50%;   top: 3%; z-index: 11;}
+}
+@-o-keyframes label_swing_06{
+	0%{  -o-transform:  rotate(12deg);  left: 52%;   top: 6%; z-index: 14;}
+	25%{ -o-transform:  rotate(-10deg); left: 45%;   top: 3%; z-index: 12;}
+	50%{ -o-transform:  rotate(30deg);  left: 50%;   top: 5%; z-index: 17;}
+	75%{ -o-transform:  rotate(-4deg);  left: 46%;   top: 3%; z-index: 14;}
+	100{ -o-transform:  rotate(12deg);  left: 52%;   top: 3%; z-index: 11;}
+}
+
+@-o-keyframes label_swing_07{
+	0%{  -o-transform:  rotate(12deg);  left: 57.5%; top: 6%; z-index: 14;}
+	25%{ -o-transform:  rotate(-10deg); left: 38%;   top: 8%; z-index: 12;}
+	50%{ -o-transform:  rotate(20deg);  left: 55%;   top: 4%; z-index: 17;}
+	75%{ -o-transform:  rotate(3deg);   left: 50%;   top: 7%; z-index: 13;}
+	100{ -o-transform:  rotate(12deg);  left: 52%;   top: 6%; z-index: 15;}
+}
+@-o-keyframes label_swing_08{
+	0%{  -o-transform:  rotate(20deg);  left: 52%;   top: 9%; z-index: 17;}
+	25%{ -o-transform:  rotate(-10deg); left: 48%;   top: 4%; z-index: 18;}
+	50%{ -o-transform:  rotate(34deg);  left: 46%;   top: 5%; z-index: 11;}
+	75%{ -o-transform:  rotate(-2deg);  left: 46%;   top: 8%; z-index: 13;}
+	100{ -o-transform:  rotate(20deg);  left: 52%;   top: 9%; z-index: 15;}
+}
+
+
+
+
+
+
+
+@keyframes yao_swing{
+	0%{transform:  rotate(0deg);}
+	10%{transform: rotate(-15deg);}
+	20%{transform: rotate(10deg);}
+	30%{transform: rotate(-10deg);}
+	40%{transform: rotate(15deg);}
+	50%{transform: rotate(-15deg);}
+	60%{transform: rotate(10deg);}
+	70%{transform: rotate(-10deg);}
+	80%{transform: rotate(15deg);}
+	90%{transform: rotate(-15deg);}
+   100%{transform: rotate(0deg);}
+}
+@-webkit-keyframes yao_swing{
+	0% {-webkit-transform:  rotate(0deg);}
+	10%{-webkit-transform: rotate(-15deg);}
+	20%{-webkit-transform: rotate(10deg);}
+	30%{-webkit-transform: rotate(-10deg);}
+	40%{-webkit-transform: rotate(15deg);}
+	50%{-webkit-transform: rotate(-15deg);}
+	60%{-webkit-transform: rotate(10deg);}
+	70%{-webkit-transform: rotate(-10deg);}
+	80%{-webkit-transform: rotate(15deg);}
+	90%{-webkit-transform: rotate(-15deg);}
+   100%{-webkit-transform: rotate(0deg);}
+}
+
+@-moz-keyframes yao_swing{
+	0% {-moz-transform:  rotate(0deg);}
+	10%{-moz-transform: rotate(-15deg);}
+	20%{-moz-transform: rotate(10deg);}
+	30%{-moz-transform: rotate(-10deg);}
+	40%{-moz-transform: rotate(15deg);}
+	50%{-moz-transform: rotate(-15deg);}
+	60%{-moz-transform: rotate(10deg);}
+	70%{-moz-transform: rotate(-10deg);}
+	80%{-moz-transform: rotate(15deg);}
+	90%{-moz-transform: rotate(-15deg);}
+   100%{-moz-transform: rotate(0deg);}
+}
+
+@keyframes yao_swing{
+	0% {transform:  rotate(0deg);}
+	10%{transform: rotate(-15deg);}
+	20%{transform: rotate(10deg);}
+	30%{transform: rotate(-10deg);}
+	40%{transform: rotate(15deg);}
+	50%{transform: rotate(-15deg);}
+	60%{transform: rotate(10deg);}
+	70%{transform: rotate(-10deg);}
+	80%{transform: rotate(15deg);}
+	90%{transform: rotate(-15deg);}
+   100%{transform: rotate(0deg);}
+}
+
+@keyframes ScanScroll{
+	from{
+		transform: rotate(0deg);
+		transform-origin: 0% 100%;
+	}
+	to{
+		transform: rotate(-1800deg);
+		transform-origin: 0% 100%;
+	}
+}
+@-moz-keyframes ScanScroll{
+	from{
+		-moz-transform: rotate(0deg);
+		-moz-transform-origin: 0% 100%;
+	}
+	to{
+		-moz-transform: rotate(-1800deg);
+		-moz-transform-origin: 0% 100%;
+	}
+}
+@-webkit-keyframes ScanScroll{
+	from{
+		-webkit-transform: rotate(0deg);
+		-webkit-transform-origin: 0% 100%;
+	}
+	to{
+		-webkit-transform: rotate(-1800deg);
+		-webkit-transform-origin: 0% 100%;
+	}
+}
+@-o-keyframes ScanScroll{
+	from{
+		-o-transform: rotate(0deg);
+		-o-transform-origin: 0% 100%;
+	}
+	to{
+		-o-transform: rotate(-1800deg);
+		-o-transform-origin: 0% 100%;
+	}
+}
+
+@keyframes ac_to_big{
+	from{ transform: scale(1,1); opacity: 1.0;}
+	to{ transform: scale(1.3,1.3); opacity: 0.5;}
+}
+@-webkit-keyframes ac_to_big{
+	from{ -webkit-transform: scale(1,1); opacity: 1.0;}
+	to{ -webkit-transform: scale(1.3,1.3); opacity: 0.5;}
+}
+@-moz-keyframes ac_to_big{
+	from{ -moz-transform: scale(1,1); opacity: 1.0;}
+	to{ -moz-transform: scale(1.3,1.3); opacity: 0.5;}
+}
+@-0-keyframes ac_to_big{
+	from{ -o-transform: scale(1,1); opacity: 1.0;}
+	to{ -o-transform: scale(1.3,1.3); opacity: 0.5;}
+}
+
+
+
+
+
+

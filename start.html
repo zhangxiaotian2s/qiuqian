@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<meta charset="utf-8">
+		<title>抽签活动</title>
+
+		<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+		<link rel="stylesheet" href="../dist/css/bootstrap.min.css" />
+		<link rel="stylesheet" href="css/style.css" />
+		<link rel="stylesheet" href="css/action.css" />
+		<script type="text/javascript" src="js/jquery-1.7.2.min.js"></script>
+		<!--<script type="text/javascript" src="js/jquery.moblie-1.4.5.js" ></script>-->
+
+		<script type="text/javascript" src="dist/js/bootstrap.js"></script>
+		<script type="text/javascript" src="js/jquery.touchSwipe.js"></script>
+	</head>
+
+	<body>
+		<header class="container-fluid publick_header01">
+			<div class="header_bk">
+				< 返回</div>
+					<h1 class="text-center">抽签活动</h1>
+		</header>
+		<div class="start_content bkbody_02" id="content">
+			<div class="start_bk startk_bk01"></div>
+			<div class="start_bk startk_bk02"></div>
+			<div class="start_bk startk_bk03"></div>
+			<div class="start_bk startk_bk04"></div>
+			<div class="start_bk startk_bk05"></div>
+			<div class="start_bk startk_bk06"></div>
+			<div class="start_bk startk_bk07"></div>
+			<div class="start_bk startk_bk08"></div>
+			<div class="start_bk startk_bk09"></div>
+			<div class="start_bk startk_bk10"></div>
+			<div class="start_bk startk_bk11"></div>
+			<div class="start_bk"></div>
+			<div class="start_btn_div">
+				<div class="col-xs-4 col-lg-4">
+					<a href="http://wwww.baidu.com" class="btn_click_a">
+						<img src="images/start_btn_01.png" class="img-responsive">
+					</a>
+				</div>
+				<div class="col-xs-4 col-lg-4">
+					<a href="http://img.baidu.com" class="btn_click_a">
+						<img src="images/start_btn_02.png" class="img-responsive">
+					</a>
+				</div>
+				<div class="col-xs-4 col-lg-4">
+					<a href="http://zhidao.baidu.com" class="btn_click_a">
+						<img src="images/start_btn_03.png" class="img-responsive">
+					</a>
+				</div>
+			</div>
+			<div class="start_text_img">
+				<img src="images/start_text_img.png" class="img-responsive">
+			</div>
+			<div class="start_text_word text-center">
+				点击上面求签的类型
+			</div>
+
+		</div>
+		<footer class="line_footer"></footer>
+
+
+
+		<script>
+			$(document).ready(function(){
+				var o_width = $("#content").width();
+				var proportion = o_width / 480;
+				var o_height   = proportion * 720;
+				$("#content").css("height", o_height);
+				$(".btn_click_a").click(function(){
+				 var this_i=$(this).index()
+				 $(this).children("img").addClass("to_big")
+				
+				})
+				
+				
+			})
+		</script>
+	</body>
+
+</html>
