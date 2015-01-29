@@ -131,10 +131,14 @@ animation: ac_to_big .5s  linear;
 
 
 
+/***********求大财 result.css*******/
 
+.company_tags{ width: 100%;}
 
+.company_tags ul li{ width: 29%; float: left; margin: 2.1%; background:#fc4e4d; text-align: center; height: 28px; line-height: 28px; color: #FFFFFF; border-radius: 5px;}
 
-
+.company_zhiweilist{ width: 100%;}
+.company_zhiweilist tr td { font-size: 1em; padding-left: 5%; white-space: nowrap; height: 40px;}
 
 .scan_bk div.scroll_go{
 animation: ScanScroll 3s  linear;
